@@ -1,6 +1,6 @@
 ZKDR Distance equation implemented in Python 
     - Author: Mawson William Sammons (mawson.sammons@postgrad.curtin.edu.au)
-
+    - Please cite as : Sammons et al., 2021 (in preparation)
   
 This function set provides a Python implementation of the ZKDR distance equation for both 
 the model derived by Kayser 1997 in "General and Practical Method for Calculating Cosmological
