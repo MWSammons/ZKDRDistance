@@ -1,3 +1,11 @@
+###################################################
+#Author: Mawson William Sammons                   # 
+#Email: mawson.sammons@postgrad.curtin.edu.au     #
+#Please cite as : Sammons et al., 2021 (In Prep)  #
+###################################################
+
+
+
 import numpy as np
 import astropy.units as u
 from astropy import constants as const
