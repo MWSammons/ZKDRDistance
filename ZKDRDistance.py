@@ -75,7 +75,7 @@ def decelParam(z, cosmo):
     temp=1/2*(cosmo.Om0*(1+z)+cosmo.Onu0*2*(1+z)**2+cosmo.Ogamma0*2*(1+z)**2-cosmo.Ode0*2*(1+z)**(-2))/(cosmo.Om0*(1+z)+cosmo.Onu0*(1+z)**2+cosmo.Ogamma0*(1+z)**2+cosmo.Ode0*(1+z)**(-2)-cosmo.Ok0)
     return temp
 
-def angular_diamter_distance_ZKDR(z1, z2, eta, method, cosmo, maxStep=0.01):
+def angular_diameter_distance_ZKDR(z1, z2, eta, method, cosmo, maxStep=0.01):
     """Solves the 2nd order D.E. for the ZKDR distance from z1 to z2
        z1= start redshift
        z2= end redshift
